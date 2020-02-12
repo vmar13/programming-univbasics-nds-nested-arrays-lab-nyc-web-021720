@@ -32,8 +32,10 @@ end
 
 def matrix_lookup(matrix, row, column)
   assembled_matrix = [
-  CONVENTIONAL_PRODUCE[1][1],
-  ORGANIC_PRODUCE[1][1]
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE
+  ]
+  assembled_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
