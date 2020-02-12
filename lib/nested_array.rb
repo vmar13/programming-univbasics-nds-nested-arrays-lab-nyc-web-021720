@@ -36,6 +36,7 @@ def matrix_lookup(matrix, row, column)
   ORGANIC_PRODUCE.sort 
 ]
   sorted_matrix[1][1]
+  assembled_matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
