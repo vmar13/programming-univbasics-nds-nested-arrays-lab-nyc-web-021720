@@ -18,15 +18,15 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   assembled_matrix = [
-  CONVENTIONAL_PRODUCE.sort,
-  ORGANIC_PRODUCE.sort 
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE
 ]
 end
 
 def sorted_matrix
   sorted_matrix = [
-  CONVENTIONAL_PRODUCE,
-  ORGANIC_PRODUCE
+  CONVENTIONAL_PRODUCE.sort,
+  ORGANIC_PRODUCE.sort 
 ]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
